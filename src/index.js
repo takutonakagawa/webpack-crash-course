@@ -1,6 +1,7 @@
 import _ from "lodash"
-// import { NAME,Nijou } from './utilities'
-import Tiger from './utilities'
+import './style.css'
+
+
 
 function component() {
     const element = document.createElement('div');
@@ -10,6 +11,6 @@ function component() {
 }
 
 
-console.log(Tiger.say());
 
 document.body.appendChild(component());
+document.body.classList.add('haikei');

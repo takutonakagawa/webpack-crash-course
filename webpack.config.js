@@ -24,7 +24,7 @@ module.exports = {
                     'css-loader',
                     'sass-loader'
                     ]
-                },
+            },
             {
                 test:/\.(jpe?g|png|gif|svg|ico)$/i,
                 loader: 'url-loader',

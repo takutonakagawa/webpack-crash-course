@@ -1,11 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './style.css'
-import './style.scss'
-
-console.log("ssssss")
-
-ReactDOM.render(
-    <div>hello</div>,
-    document.getElementById('root')
-)
+import './assets/css/style.css'
+import './assets/sass/style.scss'
+import './assets/js/tab'
